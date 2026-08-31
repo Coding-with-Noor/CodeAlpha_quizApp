@@ -1,0 +1,69 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/build/
+**/doc/api/
+**/coverage/
+
+# Flutter generated files
+**/ephemeral/
+**/Flutter/ephemeral/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+
+# Android generated files
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# iOS generated files
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/.last_build_id
+
+# Xcode
+**/*.xcuserstate
+**/*.xcuserdata/
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+
+
+# Android Gradle generated files
+android/.gradle/
+android/local.properties
+
+# Flutter generated plugin registration
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
